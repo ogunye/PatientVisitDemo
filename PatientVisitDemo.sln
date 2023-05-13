@@ -11,17 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{ACB01C8A-3D5A-4CEB-9A19-D4C415DC841B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.Domain", "PatientVisitDemo.Domain\PatientVisitDemo.Domain.csproj", "{EC2C1B2F-2B94-4E73-8077-FB5C995D2B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.Domain", "PatientVisitDemo.Domain\PatientVisitDemo.Domain.csproj", "{EC2C1B2F-2B94-4E73-8077-FB5C995D2B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.Application", "PatientVisitDemo.Application\PatientVisitDemo.Application.csproj", "{39ABBCAE-70DC-4ADA-B850-8824959AA4C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.Application", "PatientVisitDemo.Application\PatientVisitDemo.Application.csproj", "{39ABBCAE-70DC-4ADA-B850-8824959AA4C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.Persistence", "PatientVisitDemo.Persistence\PatientVisitDemo.Persistence.csproj", "{F24A0794-85D6-44FF-86E4-D8809A8B0648}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.Persistence", "PatientVisitDemo.Persistence\PatientVisitDemo.Persistence.csproj", "{F24A0794-85D6-44FF-86E4-D8809A8B0648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.ServiceRepository", "PatientVisitDemo\PatientVisitDemo.ServiceRepository.csproj", "{B4DCDCD8-2288-4F33-8503-BD7857AF38FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.ServiceRepository", "PatientVisitDemo\PatientVisitDemo.ServiceRepository.csproj", "{B4DCDCD8-2288-4F33-8503-BD7857AF38FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.ServiceContract", "PatientVisitDemo.ServiceContract\PatientVisitDemo.ServiceContract.csproj", "{09B92FCA-6F7E-4F05-9568-B8F2BC1479E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.ServiceContract", "PatientVisitDemo.ServiceContract\PatientVisitDemo.ServiceContract.csproj", "{09B92FCA-6F7E-4F05-9568-B8F2BC1479E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientVisitDemo.WebApi", "PatientVisitDemo.WebApi\PatientVisitDemo.WebApi.csproj", "{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.WebApi", "PatientVisitDemo.WebApi\PatientVisitDemo.WebApi.csproj", "{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{B4DCDCD8-2288-4F33-8503-BD7857AF38FE} = {834CDE67-E0D5-418E-AAD5-0CECB3CA9B64}
 		{09B92FCA-6F7E-4F05-9568-B8F2BC1479E9} = {834CDE67-E0D5-418E-AAD5-0CECB3CA9B64}
 		{57493D1D-3ACA-452E-8FB8-74A5BD0753FF} = {ACB01C8A-3D5A-4CEB-9A19-D4C415DC841B}
+		{E37B22F2-BE68-4C84-A7B5-9F9CE086B300} = {834CDE67-E0D5-418E-AAD5-0CECB3CA9B64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A096556E-C6F1-427D-BE3B-818F817A7D07}
