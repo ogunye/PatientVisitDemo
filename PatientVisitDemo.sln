@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.ServiceCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientVisitDemo.WebApi", "PatientVisitDemo.WebApi\PatientVisitDemo.WebApi.csproj", "{57493D1D-3ACA-452E-8FB8-74A5BD0753FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{E37B22F2-BE68-4C84-A7B5-9F9CE086B300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -38,5 +38,7 @@ namespace PatientVisitDemo.Domain.Entities
         public DateTime BirthDate { get; set; }
 
         public DateTime Registred { get; set; } = DateTime.UtcNow;
+
+        public virtual Address? Address { get; set; }
     }
 }
