@@ -9,9 +9,9 @@ namespace PatientVisitDemo.Application.Contracts
 {
     public interface IPatientRepository
     {
-        Task<IEnumerable<Patient>> GetAllAsync(bool trackChanges);
+        Task<IEnumerable<Patient>> GetAllPatientAsync(bool trackChanges);
         Task<Patient> GetPatientByName(string FirstName, string LastName, bool trackChanges);
-        void CreateAddress(Patient entity);
-        void DeleteAddress(Patient entity);
+        void CreatePatient(Patient entity);
+        void DeletePatient(Patient entity);
     }
 }
